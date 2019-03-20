@@ -1,0 +1,65 @@
+.name {
+  font-family: cursive;
+  color: indigo;
+}
+
+container {
+  background-color: white;
+}
+
+.MuiGrid-justify-xs-center-18 {
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.skills-image {
+  padding-top: 20px;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.skills-description {
+  border-top: 0px solid black;
+  text-align: center;
+  padding: 10px;
+}
+
+.movie-card,
+.new-movie-card {
+  border: 0px solid black;
+  width: 200px;
+  height: 240px;
+  position: relative;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.MuiGrid-container-1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.Avatar1 .MuiAvatar-root-98 {
+  height: 150px;
+  width: 150px;
+}
+@media only screen and (max-width: 766px) {
+  .Avatar1 .MuiAvatar-root-98 {
+    height: 80px;
+    width: 80px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .Avatar1 .MuiAvatar-root-98 {
+    height: 150px;
+    width: 150px;
+  }
+}
+.name {
+  padding-left: 15px;
+  padding-right: 15px;
+}

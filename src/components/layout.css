@@ -1,0 +1,61 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+.parallax {
+  /* The image used */
+  background-image: url(https://images.unsplash.com/photo-1534448177492-6d698f12a59a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+
+  /* Full height */
+  /* height: 100%; */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: -webkit-fill-available;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+@media only screen and (max-width: 766px) {
+  .parallax {
+    height: 100%;
+    min-height: -webkit-fill-available;
+  }
+
+  footer {
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .parallax {
+    height: -webkit-fill-available;
+  }
+  .MuiAvatar-root-98 {
+    width: 80px;
+    height: 80px;
+  }
+  footer {
+    height: 80px;
+  }
+}
+
+.Links ul li a {
+  color: white;
+}
+
+.Links ul li a:hover {
+  background-color: red;
+}
+
+.copyrights .Links ul li a {
+  color: white;
+}

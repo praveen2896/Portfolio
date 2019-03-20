@@ -1,0 +1,70 @@
+@media only screen and (min-width: 768px) {
+  #nav-icon1 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .navbar-collapse ul {
+    text-align: center;
+  }
+  .navbar-collapse a {
+    padding: 25px;
+  }
+  .navbar-collapse ul a:hover {
+    background-color: aqua;
+    border-radius: 15px;
+    text-decoration: none;
+  }
+  .navbar-collapse {
+    -webkit-flex-basis: 100%;
+    flex-basis: 100%;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    -webkit-align-items: center;
+    align-items: center;
+    height: -webkit-fill-available/2;
+  }
+}
+
+/* .Navbar-nav li {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  margin-left: -40px;
+  text-align: center;
+} */
+.navbar-collapse ul a {
+  color: white;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-decoration: none;
+}
+.navbar-collapse i {
+  padding-right: 10px;
+}
+
+.navbar-collapse {
+  -webkit-flex-basis: 100%;
+  flex-basis: 100%;
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+ul a:hover {
+  /* color: red; */
+  border-radius: 50px;
+  background-color: aqua;
+  text-decoration: none;
+}
+
+.black-text,
+.btn.btn-link {
+  color: white !important;
+}
+
+.hamburger-button__button span {
+  background-color: white;
+}
