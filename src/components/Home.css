@@ -89,3 +89,12 @@ container {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+@media only screen and (max-width: 766px) {
+  .avatar {
+    width: 80px;
+    height: 80px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+  }
+}
