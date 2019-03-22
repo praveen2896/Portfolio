@@ -9,8 +9,6 @@ import Image1 from "../images/ReactImg.png"
 import Image4 from "../images/download.png"
 import Image6 from "../images/profile.jpg"
 import Image7 from "../images/javascript.png"
-import ModalPage from "../components/contact"
-import Modal from "../components/modal"
 import "./Home.css"
 
 const bigAvatar = {
@@ -32,12 +30,6 @@ const Home = () => {
         </strong>
       </Grid>
       <Grid container justify="center" alignItems="center" />
-      <div
-        className="skills-description"
-        style={{ color: "aqua", paddingTop: "25px" }}
-      >
-        My Skills
-      </div>
       <div
         className="skills"
         style={{ color: "red", fontSize: "x-large", paddingTop: "25px" }}

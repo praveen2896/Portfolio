@@ -1,13 +1,14 @@
 import React, { Component } from "react"
 import Layout from "../components/layout"
-import ContactPage from "../components/contact"
 
-export default class Contact extends Component {
+export default class Blogs extends Component {
   render() {
     return (
       <Layout>
         <div>
-          <ContactPage />
+          <h1 style={{ textAlign: "center" }}>
+            Soon <i class="fa fa-rss" aria-hidden="true" />
+          </h1>
         </div>
       </Layout>
     )
