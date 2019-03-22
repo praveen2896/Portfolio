@@ -52,8 +52,6 @@ const Home = () => {
         <img src={Image2} alt="Avatar" className="avatar" />
         <img src={Image5} alt="Avatar" className="avatar" />
       </div>
-      {/* <ModalPage />
-      <Modal /> */}
     </div>
   )
 }
