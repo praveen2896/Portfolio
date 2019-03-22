@@ -7,6 +7,15 @@ container {
   background-color: white;
 }
 
+.skills {
+  border-top: 0px solid black;
+  text-align: center;
+  padding: 10px;
+}
+.skills .MuiAvatar-root-98 {
+  width: 150px;
+  height: 150px;
+}
 .MuiGrid-justify-xs-center-18 {
   justify-content: center;
   padding-top: 15px;
@@ -23,6 +32,23 @@ container {
   border-top: 0px solid black;
   text-align: center;
   padding: 10px;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+.bigavatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+}
+.skillsavatar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .movie-card,

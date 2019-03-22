@@ -38,26 +38,20 @@ const Home = () => {
       >
         My Skills
       </div>
-      <Grid container justify="left" alignItems="center" className="Avatar1">
-        <Avatar alt="Remy Sharp" src={Image3} />
-        <Avatar alt="Remy Sharp" src={Image4} />
-        <Avatar alt="Remy Sharp" src={Image7} />
-        <Avatar alt="Remy Sharp" src={Image1} />
-        <Avatar alt="Remy Sharp" src={Image2} />
-        <Avatar alt="Remy Sharp" src={Image5} />
-
-        {/* <div className="movie-card">
-          <div
-            className="skills-image"
-            style={{
-              backgroundImage: `url(${Image1})`,
-            }}
-          />
-          <div className="skills-description" style={{ color: "aqua" }}>
-            React Js
-          </div>
-        </div> */}
-      </Grid>
+      <div
+        className="skills"
+        style={{ color: "red", fontSize: "x-large", paddingTop: "25px" }}
+      >
+        My Skills
+      </div>
+      <div className="skillsavatar">
+        <img src={Image3} alt="Avatar" className="avatar" />
+        <img src={Image4} alt="Avatar" className="avatar" />
+        <img src={Image7} alt="Avatar" className="avatar" />
+        <img src={Image1} alt="Avatar" className="avatar" />
+        <img src={Image2} alt="Avatar" className="avatar" />
+        <img src={Image5} alt="Avatar" className="avatar" />
+      </div>
       {/* <ModalPage />
       <Modal /> */}
     </div>
